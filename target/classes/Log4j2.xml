@@ -1,0 +1,23 @@
+<configuration status="WARN" strict="true">
+	<Appenders>
+		<Appender type="console" Name="STDOUT">
+		<Layout type="patternLayout"
+		   pattern="%d{HH:mm:ss.SSS][%t]%-5level %logger{36}-%msg%n"/>
+	</Appender>
+	<Appender type="File" name="file" fileName="C:\Users\abhay\eclipse-workspace\MyFRAMEWORKproject\Logs\Log" >
+		<Layout type="PatternLayout"
+		      pattern="%d{HH:mm:ss.SSS][%t]%-5level %logger{36}-%msg%n" />
+		 
+		
+	</Appender>
+	</Appenders>
+		<Loggers>
+			<Root level="All">
+				<AppenderRef ref="STDOUT" />
+				
+			</Root>
+		</Loggers>
+	
+</configuration>
+
+

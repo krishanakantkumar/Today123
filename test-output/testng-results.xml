@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-12T14:22:51 IST" name="Suite" finished-at="2024-09-12T14:23:06 IST" duration-ms="15143">
+    <groups>
+    </groups>
+    <test started-at="2024-09-12T14:22:51 IST" name="Test" finished-at="2024-09-12T14:23:06 IST" duration-ms="15143">
+      <class name="TestCaseFile.TestCase">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestCaseFile.TestCase@5b04476e]" started-at="2024-09-12T14:22:51 IST" name="browserLaunch" finished-at="2024-09-12T14:22:57 IST" duration-ms="5464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="openurl(java.lang.String,java.lang.String)[pri:0, instance:TestCaseFile.TestCase@5b04476e]" started-at="2024-09-12T14:22:59 IST" name="openurl" data-provider="DataPro" finished-at="2024-09-12T14:23:06 IST" duration-ms="7356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+      </class> <!-- TestCaseFile.TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
